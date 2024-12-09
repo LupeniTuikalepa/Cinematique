@@ -509,7 +509,7 @@
         </member>
         <member name="P:DG.DemiEditor.DeGUIDrag.optionalDragData">
             <summary>
-            Retrieves the eventual optional generationData stored via the StartDrag method
+            Retrieves the eventual optional data stored via the StartDrag method
             </summary>
         </member>
         <member name="M:DG.DemiEditor.DeGUIDrag.StartDrag(UnityEditor.Editor,System.Collections.IList,System.Int32,System.Object)">
@@ -519,7 +519,7 @@
             <param name="editor">Reference to the current editor drawing the GUI (used when a Repaint is needed)</param>
             <param name="draggableList">List containing the dragged item and all other relative draggable items</param>
             <param name="draggedItemIndex">DraggableList index of the item being dragged</param>
-            <param name="optionalData">Optional generationData that can be retrieved via the <see cref="P:DG.DemiEditor.DeGUIDrag.optionalDragData"/> static property</param>
+            <param name="optionalData">Optional data that can be retrieved via the <see cref="P:DG.DemiEditor.DeGUIDrag.optionalDragData"/> static property</param>
         </member>
         <member name="M:DG.DemiEditor.DeGUIDrag.StartDrag(System.Int32,UnityEditor.Editor,System.Collections.IList,System.Int32,System.Object)">
             <summary>
@@ -529,7 +529,7 @@
             <param name="editor">Reference to the current editor drawing the GUI (used when a Repaint is needed)</param>
             <param name="draggableList">List containing the dragged item and all other relative draggable items</param>
             <param name="draggedItemIndex">DraggableList index of the item being dragged</param>
-            <param name="optionalData">Optional generationData that can be retrieved via the <see cref="P:DG.DemiEditor.DeGUIDrag.optionalDragData"/> static property</param>
+            <param name="optionalData">Optional data that can be retrieved via the <see cref="P:DG.DemiEditor.DeGUIDrag.optionalDragData"/> static property</param>
         </member>
         <member name="M:DG.DemiEditor.DeGUIDrag.StartDrag(UnityEditor.EditorWindow,System.Collections.IList,System.Int32,System.Object)">
             <summary>
@@ -538,7 +538,7 @@
             <param name="editorWindow">Reference to the current editor drawing the GUI (used when a Repaint is needed)</param>
             <param name="draggableList">List containing the dragged item and all other relative draggable items</param>
             <param name="draggedItemIndex">DraggableList index of the item being dragged</param>
-            <param name="optionalData">Optional generationData that can be retrieved via the <see cref="P:DG.DemiEditor.DeGUIDrag.optionalDragData"/> static property</param>
+            <param name="optionalData">Optional data that can be retrieved via the <see cref="P:DG.DemiEditor.DeGUIDrag.optionalDragData"/> static property</param>
         </member>
         <member name="M:DG.DemiEditor.DeGUIDrag.StartDrag(System.Int32,UnityEditor.EditorWindow,System.Collections.IList,System.Int32,System.Object)">
             <summary>
@@ -548,7 +548,7 @@
             <param name="editorWindow">Reference to the current editor drawing the GUI (used when a Repaint is needed)</param>
             <param name="draggableList">List containing the dragged item and all other relative draggable items</param>
             <param name="draggedItemIndex">DraggableList index of the item being dragged</param>
-            <param name="optionalData">Optional generationData that can be retrieved via the <see cref="P:DG.DemiEditor.DeGUIDrag.optionalDragData"/> static property</param>
+            <param name="optionalData">Optional data that can be retrieved via the <see cref="P:DG.DemiEditor.DeGUIDrag.optionalDragData"/> static property</param>
         </member>
         <member name="M:DG.DemiEditor.DeGUIDrag.Drag(System.Int32,System.Collections.IList,System.Int32,System.Nullable{UnityEngine.Rect},DG.DemiEditor.DeDragDirection,System.Boolean)">
             <summary>
@@ -725,13 +725,13 @@
         </member>
         <member name="M:DG.DemiEditor.DeGUINodeSystem.HelpPanel.ContentGroup.AppendDefinition(System.String)">
             <summary>
-            AddPortal definition. Supports rich-text but also these special tags:<para/>
+            Add definition. Supports rich-text but also these special tags:<para/>
             - [b][/b]
             </summary>
         </member>
         <member name="M:DG.DemiEditor.DeGUINodeSystem.HelpPanel.Definition.AddKey(System.String,System.Boolean)">
             <summary>
-            AddPortal key, automatically formatting these special keys:<para/>
+            Add key, automatically formatting these special keys:<para/>
             /<para/>
             +<para/>
             →
@@ -933,7 +933,7 @@
         </member>
         <member name="M:DG.DemiEditor.DeGUIKey.Refresh(System.String)">
             <summary>
-            Call this method to update generationData required by softCtrl calculations.
+            Call this method to update data required by softCtrl calculations.
             Automatically called from within a <see cref="T:DG.DemiEditor.DeGUINodeSystem.NodeProcessScope`1"/>.<para/>
             Returns a <see cref="T:DG.DemiEditor.DeGUIKey.KeysRefreshResult"/> object with the keys that were just pressed and just released
             </summary>
@@ -1122,7 +1122,7 @@
             </list>
             </summary>
         </member>
-        <member name="M:DG.DemiEditor.GUIStyleExtensions.AddPortal(UnityEngine.GUIStyle,System.Object[])">
+        <member name="M:DG.DemiEditor.GUIStyleExtensions.Add(UnityEngine.GUIStyle,System.Object[])">
             <summary>
             Adds the given formats to the style. You can pass any of these types of values:
             <list type="bullet">
@@ -1309,10 +1309,10 @@
             Stores a GUIStyle palette, which can be passed to default DeGUI layouts when calling <code>DeGUI.BeginGUI</code>,
             and changed at any time by calling <code>DeGUI.ChangePalette</code>.
             You can inherit from this class to create custom GUIStyle palettes with more options.
-            Each of the sub-options require a public InitRoots method to initialize the styles, which will be called via Reflection.
+            Each of the sub-options require a public Init method to initialize the styles, which will be called via Reflection.
             </summary>
         </member>
-        <member name="M:DG.DemiEditor.DeStylePalette.InitRoots">
+        <member name="M:DG.DemiEditor.DeStylePalette.Init">
             <summary>
             Called automatically by <code>DeGUI.BeginGUI</code>.
             Override when adding new style subclasses.
@@ -2150,7 +2150,7 @@
             Replicates DeExtensions.RectExtensions for internal usage
             </summary>
         </member>
-        <member name="M:DG.DemiEditor.RectExtensions.AddPortal(UnityEngine.Rect,UnityEngine.Rect)">
+        <member name="M:DG.DemiEditor.RectExtensions.Add(UnityEngine.Rect,UnityEngine.Rect)">
             <summary>
             Adds one rect into another, and returns the resulting a
             </summary>
