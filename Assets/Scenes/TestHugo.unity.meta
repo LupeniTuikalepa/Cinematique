@@ -1,9 +1,11 @@
 fileFormatVersion: 2
 <<<<<<<< Updated upstream:Assets/Scenes/TestHugo.unity.meta
 guid: 153f8b891a2c63b4bb023f3e8079a0fa
+<<<<<<<< HEAD:Assets/Scenes/Scene_Guillaume/Guillaume.unity.meta
+guid: 7e7089bc8f4a2434db4dd87b8dd030f0
 ========
-guid: cff4b668de981fc40a20698bd3f98b1c
->>>>>>>> Stashed changes:Assets/Props/Piloto Studio/Campfire And Torches Pack/ContentOverview.unity.meta
+guid: 905045adf548b274c8c25d2240bbf323
+>>>>>>>> f62e41d7d01c30da2191f95a43e0fce68cd5e1e3:Assets/Scenes/TestHugo.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
