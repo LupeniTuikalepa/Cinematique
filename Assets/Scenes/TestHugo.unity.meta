@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/TestHugo.unity.meta
 guid: 905045adf548b274c8c25d2240bbf323
+========
+guid: a0c1fa1966f61c04db7c59a17bc666c4
+>>>>>>>> LB:Assets/Scenes/Lancelot.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
