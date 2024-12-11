@@ -311,7 +311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6329594895764862615}
   - component: {fileID: 9085167716439763510}
-  - component: {fileID: 8172911552623249269}
+  - component: {fileID: 8577824966575235471}
   m_Layer: 0
   m_Name: Medieval_RoofTiles_TopCorner_Collision_1
   m_TagString: Untagged
@@ -342,7 +342,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6679007121840310801}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &8172911552623249269
+--- !u!65 &8577824966575235471
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
