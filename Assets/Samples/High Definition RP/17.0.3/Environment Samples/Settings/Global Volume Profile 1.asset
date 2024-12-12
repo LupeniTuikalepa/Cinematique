@@ -466,11 +466,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {x: 0, y: -6378.1, z: 0}
   windOrientation:
-    m_OverrideState: 1
-    m_Value: 180
+    m_OverrideState: 0
+    m_Value: 112
   windSpeed:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 588.1
   fogType:
     m_OverrideState: 0
     m_Value: 0
@@ -547,7 +547,7 @@ MonoBehaviour:
     m_Value: 55261.973
   aerosolDensity:
     m_OverrideState: 1
-    m_Value: 0.025
+    m_Value: 0.35
   aerosolTint:
     m_OverrideState: 0
     m_Value: {r: 0.9, g: 0.9, b: 0.9, a: 1}
@@ -628,7 +628,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: Global Volume Profile
+  m_Name: Global Volume Profile 1
   m_EditorClassIdentifier: 
   components:
   - {fileID: -4072406264601288323}
@@ -987,7 +987,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   maxFogDistance:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 5000
   mipFogMaxMip:
     m_OverrideState: 0
@@ -999,11 +999,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1000
   baseHeight:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 256
+    m_Value: 1675.9
   meanFreePath:
     m_OverrideState: 1
     m_Value: 2500
@@ -1769,7 +1769,7 @@ MonoBehaviour:
   active: 1
   opacity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.43
   upperHemisphereOnly:
     m_OverrideState: 0
     m_Value: 1
@@ -1821,20 +1821,20 @@ MonoBehaviour:
       m_Value: 0
     distortionMode:
       m_OverrideState: 0
-      m_Value: 0
+      m_Value: 1
     scrollOrientation:
       m_OverrideState: 0
       m_Value:
-        mode: 1
+        mode: 2
         customValue: 0
-        additiveValue: 0
+        additiveValue: 17.77
         multiplyValue: 1
     scrollSpeed:
       m_OverrideState: 0
       m_Value:
-        mode: 1
+        mode: 2
         customValue: 100
-        additiveValue: 0
+        additiveValue: 572.44
         multiplyValue: 1
     flowmap:
       m_OverrideState: 0
@@ -2247,17 +2247,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   quality:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 2
   threshold:
     m_OverrideState: 0
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.488
   scatter:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0.029
   tint:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -2271,11 +2271,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   m_Resolution:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 2
   m_HighQualityPrefiltering:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   m_HighQualityFiltering:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
